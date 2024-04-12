@@ -14,3 +14,14 @@ c.ServerApp.root_dir = r'C:\N-20KEPC0Y7KFA-Data\junhuawa\Documents\Play-with-ML-
 import sys
 sys.path.append('C:\Users\junhuawa\PycharmProjects\playML')
 
+### 打开其他文件夹下的jpynb文件
+在powershell prompt下，输入给jupyter notebook输入对应的目录
+
+jupyter notebook C:\N-20KEPC0Y7KFA-Data\junhuawa\Documents\Play-with-ML-in-Python\src\Basics
+
+
+### python interpretor path
+
+C:\Users\junhuawa\AppData\Local\anaconda3\python.exe
+
+Settings/Project/Python Interpreter
