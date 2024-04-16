@@ -1,9 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
-* [数论]()
-   * [数论](Numbers/SpecialNumbers.md)
-   * [几何级数](Numbers/GeometricProgression.md)
+* [Chapter6]()
+   * [梯度下降法](Chap6-Gradient-Descent/6-1.md)
+   * [模拟实现梯度下降法](Chap6-Gradient-Descent/6-2.md)
 * [线性代数]()
    * [范数](LinearAlgebra/norm.md)
    * [向量](LinearAlgebra/vector.md)
