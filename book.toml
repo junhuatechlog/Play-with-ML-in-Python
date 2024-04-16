@@ -4,11 +4,11 @@ language = "en"
 description = "The note of keypoints"
 multilingual = false
 src = "src"
-title = "mathematics_basic_for_ML"
+title = "Python3 入门机器学习 经典算法与应用"
 
 [output.html]
 mathjax-support = true
-git-repository-url = "https://github.com/junhuatechlog/keypoints"
+git-repository-url = "https://github.com/junhuatechlog/Play-with-ML-in-Python.git"
 git-repository-icon = "fa-github"
 additional-css = ["theme/pagetoc.css"]
 additional-js  = ["theme/pagetoc.js"]
