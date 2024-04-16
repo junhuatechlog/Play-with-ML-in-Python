@@ -1,6 +1,6 @@
 {
     "gitbook": "3.2.3",
-    "author": "windmissing",
+    "author": "junhuatechlog",
     "plugins": [
         "katex",
         "katex-plus",
@@ -16,10 +16,10 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/junhuatechlog/keypoints"
+            "url": "https://github.com/junhuatechlog/Play-with-ML-in-Python"
         },
         "github-buttons": {
-            "repo": "windmissing/mathematics_basic_for_ML",
+            "repo": "junhuatechlog/Play-with-ML-in-Python",
             "types": [
                 "star",
                 "watch",
