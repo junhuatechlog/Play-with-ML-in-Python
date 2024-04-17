@@ -1,7 +1,7 @@
 [book]
 authors = ["junhuatechlog"]
 language = "en"
-description = "The note of keypoints"
+description = "The note of LYB's course" 
 multilingual = false
 src = "src"
 title = "Python3 入门机器学习 经典算法与应用"
