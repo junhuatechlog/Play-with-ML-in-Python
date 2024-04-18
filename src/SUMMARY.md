@@ -1,6 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
+* [Chapter1 基础]()
+   * [Jupyter Notebook](Chap1-Basics/Jupyter-Notebook-tips.md)
+   * [Matplotlib](Chap1-Basics/Matplotlib.md)
+   * [mdbook](Chap1-Basics/mdBookTips.md)
+   * [Numpy](Chap1-Basics/numpy.md)
+   * [Python Class](Chap1-Basics/python-class.md)
 * [Chapter6]()
    * [梯度下降法](Chap6-Gradient-Descent/6-1.md)
    * [模拟实现梯度下降法](Chap6-Gradient-Descent/6-2.md)
