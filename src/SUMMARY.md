@@ -29,3 +29,4 @@
    * [MNIST 数据集](Chap7-PCA/7-7.md)
 * [Chapter8 多项式回归和模型泛化]()  
    * [scikit-learn中的多项式回归和Pipeline](Chap8-PolynomialRegression/8-2.md)
+   * [过拟合和欠拟合](Chap8-PolynomialRegression/8-3.md)
