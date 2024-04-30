@@ -1,4 +1,4 @@
-#Numpy functions
+# Numpy functions
 
 ```python
 import numpy as np
