@@ -42,3 +42,7 @@
    * [逻辑回归的损失函数](Chap9-Logistic-Regression/9-2.md)
    * [逻辑回归损失函数的梯度](Chap9-Logistic-Regression/9-3.md)
    * [实现逻辑回归算法](Chap9-Logistic-Regression/9-4.md)
+   * [决策边界 - Decision Boundary](Chap9-Logistic-Regression/9-5.md)
+   * [逻辑回归中使用多项式特征](Chap9-Logistic-Regression/9-6.md)
+   * [逻辑回归中使用正则化](Chap9-Logistic-Regression/9-7.md)
+   * [OvR 与 OvO - 逻辑回归解决多分类问题](Chap9-Logistic-Regression/9-8.md)
