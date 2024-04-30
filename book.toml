@@ -22,3 +22,6 @@ enable = true
 enable = true
 
 # [output.pdf]
+
+[preprocessor.katex]
+after = ["links"]
