@@ -13,6 +13,9 @@ git-repository-icon = "fa-github"
 additional-css = ["theme/pagetoc.css"]
 additional-js  = ["theme/pagetoc.js"]
 
+[preprocessor.katex]
+after = ["links"]
+
 [output.html.fold]
 
 [output.html.print]
@@ -23,5 +26,3 @@ enable = true
 
 # [output.pdf]
 
-[preprocessor.katex]
-after = ["links"]
