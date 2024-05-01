@@ -23,7 +23,8 @@ https://apps.timwhitlock.info/emoji/tables/unicode#block-4-enclosed-characters
 
 
 ### 嵌入数学公式
-    在第一个 <span>$</span> 符号之前如果有文字，需要用空格隔开，如果不隔开，无法正常显示。 
+在第一个 <span>$</span>100 符号之前如果有文字，需要用空格隔开，如果不隔开，无法正常显示。 
+文字要顶格写，如果不顶格写，span tag就会识别不出来。 
 
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are:
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$$
@@ -35,3 +36,4 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 [Markdown format syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+To split <span>$</span>100 in half, we calculate $100/2$
