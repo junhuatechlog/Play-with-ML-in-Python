@@ -46,3 +46,8 @@
    * [逻辑回归中使用多项式特征](Chap9-Logistic-Regression/9-6.md)
    * [逻辑回归中使用正则化](Chap9-Logistic-Regression/9-7.md)
    * [OvR 与 OvO - 逻辑回归解决多分类问题](Chap9-Logistic-Regression/9-8.md)
+* [Chapter10 评价分类结果]()  
+   * [准确度陷阱和混淆矩阵](Chap10-Classification-Performance-Measures/10-1.md)
+   * [精准率和召回率的平衡](Chap10-Classification-Performance-Measures/10-2.md)
+   * [精准率-召回率曲线](Chap10-Classification-Performance-Measures/10-3.md)
+   * [ROC曲线 ](Chap10-Classification-Performance-Measures/10-4.md)
