@@ -40,10 +40,10 @@ To split <span>$</span>100 in half, we calculate $100/2$
 
 
 
-同时关注精准率和召回率 \- $ F_1 \ score $   
+同时关注精准率和召回率 \- $F_1\ score$   
 
 
-## $ F_1 \ Score $ - Balanced F score
+## $F_1\ Score$ - Balanced F score
 
 
 FPR \(False Positive Rate 假阳性率\) \= $FPR = \frac {FP} {TN + FP}$
