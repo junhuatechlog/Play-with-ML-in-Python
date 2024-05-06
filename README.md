@@ -37,3 +37,13 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 [Markdown format syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 To split <span>$</span>100 in half, we calculate $100/2$
+
+
+
+同时关注精准率和召回率 \- $ F_1 \ score $   
+
+
+## $ F_1 \ Score $ - Balanced F score
+
+
+FPR \(False Positive Rate 假阳性率\) \= $FPR = \frac {FP} {TN + FP}$
