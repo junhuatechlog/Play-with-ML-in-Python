@@ -47,3 +47,10 @@ To split <span>$</span>100 in half, we calculate $100/2$
 
 
 FPR \(False Positive Rate 假阳性率\) \= $FPR=\frac{FP}{TN + FP}$
+
+FPR \(False Positive Rate 假阳性率\) \= $FPR=\frac{FP}{TN+FP}$  
+
+
+TPR \(真正率\) \= Recall score \= $\frac {TP} {TP + FN}$ \= 召回率
+
+\\( \int x dx = \frac{x^2}{2} + C \\)
