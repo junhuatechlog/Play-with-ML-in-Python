@@ -23,3 +23,14 @@ theta_history=[1, 2, 3, 4, 5, 6]
 theta_y = J(np.array(theta_history))
 ```
 
+
+从一个数组中选出满足条件的点：
+
+```python
+test_list = np.array([3, 2, 1, 4, 7, 2, 3, 4, 9, 8])
+index = np.array((test_list >= 3) & (test_list <= 7))#从中选出>=3, <=7的点
+test_list[index]
+```
+结果：
+
+`array([3, 4, 7, 3, 4])`
