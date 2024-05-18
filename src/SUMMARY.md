@@ -10,6 +10,8 @@
 * [Chapter4 最基础的分类算法-k近邻算法kNN]()
    * [kNN](Chap4-kNN/4-1.md)
    * [数据归一化](Chap4-kNN/4-7.md)
+   * [scikit-learn中的Scaler](Chap4-kNN/4-8.md)
+   * [kNN缺点](Chap4-kNN/4-9.md)
 * [Chapter5 线性回归法]()
 * [Chapter6 梯度下降法]()
    * [梯度下降法](Chap6-Gradient-Descent/6-1.md)
