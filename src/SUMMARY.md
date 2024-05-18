@@ -8,6 +8,8 @@
    * [Numpy](Chap1-Basics/numpy.md)
    * [Python Class](Chap1-Basics/python-class.md)
 * [Chapter4 最基础的分类算法-k近邻算法kNN]()
+   * [kNN](Chap4-kNN/4-1.md)
+   * [数据归一化](Chap4-kNN/4-7.md)
 * [Chapter5 线性回归法]()
 * [Chapter6 梯度下降法]()
    * [梯度下降法](Chap6-Gradient-Descent/6-1.md)
