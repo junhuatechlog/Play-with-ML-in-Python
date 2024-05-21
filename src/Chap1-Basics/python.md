@@ -19,3 +19,14 @@ for i, city in enumerate(cities):
 3 NY
 4 NJ
 ```
+
+```python
+        def dJ(theta, X_b, y):
+            gd = np.zeros_like(theta)
+            for i in range(len(theta)):
+                if i == 0:
+                    gd[0] = np.sum((X_b.dot(theta) - y))
+                else:
+                    gd[i] = np.sum((X_b.dot(theta) - y).dot(X_b[:, i]))
+            return gd * 2 / len(X_b)
+```
