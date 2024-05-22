@@ -42,7 +42,7 @@ array([[0., 0., 0.],
 
 ### random.normal()
 Draw random samples from a normal (Gaussian) distribution.
-返回正态分布的随机采样, 均值为loc，方差为scale。
+返回正态分布的随机采样, 均值为loc，**标准差**为scale。
 
 np.random.normal(loc=0.0, scale=1.0, size=None)
 
@@ -52,7 +52,7 @@ np.random.normal(loc=0.0, scale=1.0, size=None)
 loc : float or array_like of floats 均值
     Mean ("centre") of the distribution.
 scale : float or array_like of floats 方差
-    Standard deviation (spread or "width") of the distribution. Must be
+    **Standard deviation (spread or "width") of the distribution**. Must be
     non-negative.
 size : int or tuple of ints, optional
     Output shape.  If the given shape is, e.g., ``(m, n, k)``, then
@@ -157,6 +157,9 @@ X[:, 0] = np.random.uniform(0, 100, size=100)
 X[:, 1] = 0.75*X[:, 0] + 3.0 + np.random.normal(0, 10, size=100)
 
 ### 向量的模
+向量 AB（AB上面有→）的长度叫做向量的模
 ```python
-    np.linalg.norm(w) 
+    x = np.array([3, 4])
+    np.linalg.norm(x) 
+    5.0
 ```

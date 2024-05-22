@@ -4,7 +4,7 @@ Matplotlib是Numpy的附加组件，输出Matlab质量的图形。 使用类的�
 图形 (Figure) 类实例等同于艺术家称为 "画布" 的东西。一个图形中可能有一个或者多个轴 (Axes)类的实例。轴 (Axes)代表坐标轴 (一个X轴和一个y轴) 的集合！  
 在使用中，如果直接调用 plt.plot() 绘图，则会默认创建一个图形类和一个轴.
 
-下面两段代码生成同一个图形:
+### 下面两段代码生成同一个图形:
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -29,7 +29,7 @@ plt.title('A simple plot')
 ```
 ![一个简单图形示例](images/matplotlib/simple.png)
 
-在一个图形中绘制多个坐标轴
+### 在一个图形中绘制多个坐标轴
 
 ```python
 x = np.linspace(0, 5, 101)
@@ -64,7 +64,8 @@ fig.suptitle('Various decay functions') #绘制标题
 ```
 ![在一个图形中绘制多个坐标轴](images/matplotlib/4axes.png)
 
-绘制等高线 - 也称水平线，是一种在二维平面显示3D图像的方法
+### 绘制等高线 
+也称水平线，是一种在二维平面显示3D图像的方法
 
 ```python
 import numpy as np
@@ -79,7 +80,7 @@ fig.suptitle(r'The level contours of $z=x^2+y^2$', fontsize=20)
 ```
 ![绘制等高线](images/matplotlib/contour.png)
 
-绘制带颜色的等高曲线图
+### 绘制带颜色的等高曲线图
 
 ```python
 import numpy as np
@@ -94,3 +95,42 @@ fig.suptitle(r'The level contours of $z=x^2+y^2$', fontsize=20)
 fig.colorbar(curves, orientation='vertical')
 ```
 ![带颜色的等高曲线图](images/matplotlib/color.png)
+
+### 绘制柱状图
+给他一个数列，他会对数列里各个值的数量做统计，然后用柱状图表示出来。 
+Compute and plot a histogram.
+
+```python
+x = np.random.normal(0, 1, 100)# 创建一个均值为0， 标准差为1 的100个数的数列
+plt.hist(x)
+```
+返回：
+返回两个数组，第一个数组列出数列中每个值对应的个数 - counts；
+第二个数组列出桶的列表 - bins。
+```python
+(array([ 1.,  5.,  7., 13., 17., 18., 16., 11.,  7.,  5.]),
+ array([-2.55298982, -2.07071537, -1.58844093, -1.10616648, -0.62389204,
+        -0.1416176 ,  0.34065685,  0.82293129,  1.30520574,  1.78748018,
+         2.26975462]),
+ <BarContainer object of 10 artists>)
+
+```
+![](images/matplotlib/hist.jpg)
+
+### 画出正态分布的概率密度函数和柱状图
+
+```python
+x = np.random.normal(0, 1, 1000)
+x = np.sort(x)
+def gaussian(mu, sigma, x):
+    return 1/(np.sqrt(2*np.pi) * sigma) * np.exp(-(x - mu)**2/(2*sigma**2))
+
+y = gaussian(0, 1, x)
+plt.hist(x, density=True, bins='auto') #density 表示返回的是概率密度值，也可以指定桶的数量
+plt.plot(x, y)
+
+```
+概率密度值 = each bin will display the bin's raw count divided by the total number of counts *and the bin width*
+
+这里的bin是桶的意思。 
+![](images/matplotlib/hist-pd.jpg)
