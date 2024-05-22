@@ -150,3 +150,13 @@ test_list[index]
 # Numpy中的arg运算
 
 # Numpy中的比较和Fancy Indexing
+
+
+X = np.empty((100, 2))
+X[:, 0] = np.random.uniform(0, 100, size=100)
+X[:, 1] = 0.75*X[:, 0] + 3.0 + np.random.normal(0, 10, size=100)
+
+### 向量的模
+```python
+    np.linalg.norm(w) 
+```
