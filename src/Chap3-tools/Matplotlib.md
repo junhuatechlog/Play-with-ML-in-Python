@@ -133,4 +133,5 @@ plt.plot(x, y)
 概率密度值 = each bin will display the bin's raw count divided by the total number of counts *and the bin width*
 
 这里的bin是桶的意思。 
+scipy.stats.norm.pdf() - Probability density function 
 ![](images/matplotlib/hist-pd.jpg)
