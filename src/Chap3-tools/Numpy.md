@@ -60,6 +60,7 @@ size : int or tuple of ints, optional
     a single value is returned if ``loc`` and ``scale`` are both scalars.
     Otherwise, ``np.broadcast(loc, scale).size`` samples are drawn.
 
+### 正态分布的概率密度和分布函数
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -68,12 +69,22 @@ def gaussian(mu, sigma, x):
     return 1/(np.sqrt(2*np.pi) * sigma) * np.exp(-(x - mu)**2/(2*sigma**2))
 y = gaussian(0, 1, x)
 plt.plot(x, y)
-plt.title('Probability density curve of Gaussian distribution')
-plt.xlabel('Value')
-plt.ylabel('Probability Density')
-```
-![](images/Probability-Density.jpg)
 
+# 求概率分布函数 
+F_sum = np.zeros_like(y, dtype='float')
+for i in range(0, 100):
+    F = y[:i]
+    F_sum[i] = np.sum(F)
+    
+plt.plot(x, y, label='Probability density curve')
+plt.plot(x,F_sum*8/100, label="Cumulative Distribution Function")# 在概率密度函数中，每一个采样点所占的空间是(8/100)
+plt.title('Gaussian distribution')
+plt.xlabel('Value')
+plt.ylabel('Probability')
+plt.grid()
+plt.legend()
+```
+![](images/Probability-Density-distribution.jpg)
 
 ### reshape() - 给数组变形
 Gives a new shape to an array without changing its data.
